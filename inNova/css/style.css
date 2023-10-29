@@ -413,7 +413,7 @@ img {
 
 /* subnavbar */
 .subnavbar {
-    background: #fff;
+    background: #ffffff;
     -webkit-box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.1);
 }
@@ -425,6 +425,7 @@ img {
 .subnavbar .subnavbar-inner .tab-link {
     font-size: 13px;
     font-weight: 500;
+    transition-duration: .3s;
 }
 
 .subnavbar .subnavbar-inner .tab-link.tab-link-active {
@@ -433,6 +434,11 @@ img {
 
 .subnavbar::after {
     display: none;
+}
+
+.subnavbar .subnavbar-inner .tab-link:hover {
+    color: #fa5a3a;
+    border-top: 1px solid #fa5a3a;
 }
 
 /* social media color */
